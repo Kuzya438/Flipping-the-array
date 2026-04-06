@@ -22,12 +22,12 @@ int main() {
 	int array[9]{ 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 	int size{ sizeof(array) / sizeof(int) };
 
-	std::cout << "Äî ôóíêöèè reverse: ";
+	std::cout << "Ð”Ð¾ Ñ„ÑƒÐ½ÐºÑ†Ð¸Ð¸ reverse: ";
 	print(array, size);
 
 	reverse(array, size);
 
-	std::cout << "Ïîñëå ôóíêöèè reverse: ";
+	std::cout << "ÐŸÐ¾ÑÐ»Ðµ Ñ„ÑƒÐ½ÐºÑ†Ð¸Ð¸ reverse: ";
 	print(array, size);
 
 	return EXIT_SUCCESS;
